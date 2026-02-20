@@ -521,6 +521,7 @@ import (
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openai"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openaiadmin"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/opencagedata"
+	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openrouter"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openuv"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openvpn"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openweather"
@@ -1401,6 +1402,7 @@ func buildDetectorList() []detectors.Detector {
 		&openai.Scanner{},
 		&openaiadmin.Scanner{},
 		&opencagedata.Scanner{},
+		&openrouter.Scanner{},
 		&openuv.Scanner{},
 		&openvpn.Scanner{},
 		&openweather.Scanner{},

@@ -1147,6 +1147,7 @@ const (
 	DetectorType_Photoroom                               DetectorType = 1038
 	DetectorType_JWT                                     DetectorType = 1039
 	DetectorType_OpenAIAdmin                             DetectorType = 1040
+	DetectorType_OpenRouter                              DetectorType = 1041
 )
 
 // Enum value maps for DetectorType.
@@ -2189,6 +2190,7 @@ var (
 		1038: "Photoroom",
 		1039: "JWT",
 		1040: "OpenAIAdmin",
+		1041: "OpenRouter",
 	}
 	DetectorType_value = map[string]int32{
 		"Alibaba":                               0,
@@ -3228,6 +3230,7 @@ var (
 		"Photoroom":                         1038,
 		"JWT":                               1039,
 		"OpenAIAdmin":                       1040,
+		"OpenRouter":                        1041,
 	}
 )
 
